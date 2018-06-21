@@ -10,11 +10,11 @@ a {
 }
 
 a:hover {
-  background-color: red;
+  background-color: gray;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -26,10 +26,18 @@ h3 {
 /* Navication Menu*/
 
 .nav-bar {
-  background-color: firebrick;
+  background-color: black;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 5rem;
+}
 
+main {
+  position: relative;
+  top: 5rem;
 }
 
 .nav-one {
@@ -52,22 +60,67 @@ h3 {
 /*banner*/
 
 .co-title {
-  height: 30rem;
+  height: 12rem;
   width: 100%;
   background-image: url("../images/banner1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner {
-  width: 40%;
-  position: relative;
-  top: 3rem;
-  margin-left: 10%;
+  width: 20%;
+  height: 6rem;
   background-color: black;
   color: white;
   padding: 0.5rem 0.5rem;
   border: 1px solid black;
-  border-radius: 15%;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*main*/
+
+.main-info {
+  height: auto;
+  padding: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main-text {
+  font-weight: bold;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/*footer*/
+
+.main-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.esa {
+  display: flex;
+  flex-direction: column;
+}
+
+.esa span {
+  text-align: center;
+  color: white;
+  padding-top: 0.5rem;
 }
