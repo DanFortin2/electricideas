@@ -2,6 +2,7 @@
 
 html {
   font-size: 18px;
+  background-color: black;
 }
 
 a {
@@ -21,6 +22,9 @@ h3 {
   font-size: 1rem;
 }
 
+html, body, a, h1, h3, p {
+  font-family: Helvetica, serif;
+}
 
 
 /* Navication Menu*/
@@ -60,7 +64,7 @@ main {
 /*banner*/
 
 .co-title {
-  height: 12rem;
+  height: 20rem;
   width: 100%;
   background-image: url("../images/banner1.jpg");
   background-repeat: no-repeat;
@@ -87,21 +91,13 @@ main {
   padding-bottom: 1rem;
 }
 
+.comp-sign, .esa {
+  width: 15rem;
+}
+
+
 /*main*/
 
-.main-info {
-  height: auto;
-  padding: 0.25rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.main-text {
-  font-weight: bold;
-  line-height: 1.5rem;
-  text-align: center;
-  font-size: 1.1rem;
-}
 
 /*footer*/
 
